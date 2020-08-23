@@ -1,24 +1,23 @@
-# galaxy-front
+# Galaxy Code Challenge Frontend Application
+
+This is the frontend for the code challenge. It is created using VueJS and Bulma.
+
 
 ## Project setup
 ```
-npm install
-```
+git clone git@github.com:RogerVR1994/galaxy-front.git
 
-### Compiles and hot-reloads for development
-```
+cd galaxy-front
+
+# Install all node modules necessary for the application to run
+npm install
+
+# Run the app
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+This will create an application in [localhost:8080] where you will be able to create and retrieve data 
+from the Django app.
 
-### Lints and fixes files
-```
-npm run lint
-```
+It is important that the 2 applications are running at the same time.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
